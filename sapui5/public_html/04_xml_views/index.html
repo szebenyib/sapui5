@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Controls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            id="sap-ui-boostrap"
+            src="../resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_bluecrystal"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-preload="async"
+            data-sap-ui-resourceroots='{
+                "namespace_id": "./"
+                }'>
+        </script>
+        <script>
+            var f = function() {
+                sap.ui.xmlview({
+                    viewName: "namespace_id.view.App"
+                }).placeAt("content");
+            };
+            sap.ui.getCore().attachInit(f);
+        </script>
+    </head>
+    <body>
+        <div class="sapUiBody" id="content"></div>
+    </body>
+</html>
