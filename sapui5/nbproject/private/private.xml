@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/szebenyib/NetBeansProjects/01_hello_world/public_html/index.html</file>
+            <file>file:/home/szebenyib/NetBeansProjects/sapui5/public_html/08_i18n/i18n/i18n.properties</file>
+            <file>file:/home/szebenyib/NetBeansProjects/sapui5/public_html/08_i18n/view/App.view.xml</file>
+            <file>file:/home/szebenyib/NetBeansProjects/sapui5/public_html/08_i18n/index.html</file>
+            <file>file:/home/szebenyib/NetBeansProjects/sapui5/public_html/08_i18n/controller/App.controller.js</file>
         </group>
     </open-files>
 </project-private>
