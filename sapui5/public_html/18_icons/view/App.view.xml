@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<mvc:View
+	controllerName="namespace_id.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"> <!-- for mobile support -->
+	<App class="appClass">
+		<pages>
+			<Page title="{i18n>homePageTitle}">
+				<Panel>
+					<mvc:XMLView viewName="namespace_id.view.ownPanel" />
+				</Panel>
+			</Page>
+		</pages>
+	</App>
+	<Button text="{i18n>sampleText}" press="onSayThis"	/>
+	<Input
+		value="{/recipient/name}"
+		description="Hi: {/recipient/name}"
+		valueLiveUpdate="true"
+		width="60%"/>
+</mvc:View>
