@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<mvc:View
+	controllerName="namespace_id.controller.ownPanel"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+		<Panel headerText="{i18n>helloPanelTitle}"
+						class="sapUiResponsiveMargin"
+						width="auto">
+			<content>
+				<Button text="{i18n>dialogOpenerButtonText}"
+								press="onDialogButtonPressed"
+								class="myCustomButton"
+								icon="sap-icon://world"	/>
+				<Button text="{i18n>buttonText}"
+								press="onSayThis"
+								class="myCustomButton" />
+				<Input type="Text"
+								value="{/recipient/name}"
+								description="Hi there, recipient name: {/recipient/name}"
+								valueLiveUpdate="true"
+								fieldWidth="60%" />
+				<Text text="Hello {/recipient/name}" 
+							class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText" />
+			</content>
+		</Panel>
+</mvc:View>
